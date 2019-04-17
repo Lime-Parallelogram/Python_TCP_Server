@@ -42,7 +42,7 @@ while True:
         if data == ctrCmd[2]:
                 lighton.ledOn()
                 #Sends string back
-                TCPCliSock.send("Your String".encode()) #Please reaplace Your string with The required text (NOTE:use str() if data is not string)
+                tcpCliSock.send("Your String".encode()) #Please reaplace Your string with The required text (NOTE:use str() if data is not string)
 
         	
 
