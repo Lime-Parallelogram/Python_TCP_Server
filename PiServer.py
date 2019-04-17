@@ -41,7 +41,8 @@ while True:
         
         if data == ctrCmd[2]:
                 lighton.ledOn()
-                #here I want to send String back to Android 
+                #Sends string back
+                TCPCliSock.send("Your String".encode()) #Please reaplace Your string with The required text (NOTE:use str() if data is not string)
 
         	
 
